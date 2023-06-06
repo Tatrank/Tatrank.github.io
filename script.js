@@ -9,7 +9,7 @@ loadmodules().then(startVideo);
 let video = document.querySelector("video");
 let constraints = {
   video: {
-    facingMode: "environment",
+    facingMode: "user",
     width: 640,
     height: 480,
   },
