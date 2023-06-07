@@ -11,7 +11,7 @@ let constraints = {
   video: {
     facingMode: "user",
     width: 500,
-    height: 500,
+    height: 400,
   },
 };
 let button1 = document.getElementById("Detection");
