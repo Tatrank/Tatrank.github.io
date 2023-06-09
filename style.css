@@ -4,12 +4,11 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
+  padding-left: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-inline: scroll;
 }
 
 canvas {
@@ -18,9 +17,8 @@ canvas {
 
 .absolute {
   position: absolute;
-  top: 90%;
+  top: 800px;
   display: flex;
-  z-index: 5;
 }
 
 .input {
@@ -39,4 +37,32 @@ canvas {
   align-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+video {
+  width: 640;
+  height: 480;
+}
+
+#video {
+  width: 640;
+  height: 480;
+}
+
+@media only screen and (max-width: 600px) {
+  .absolute {
+    flex-direction: column;
+  }
+  video {
+    width: 300;
+    height: 400;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
