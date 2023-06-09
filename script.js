@@ -10,8 +10,8 @@ let video = document.querySelector("video");
 let constraints = {
   video: {
     facingMode: "user",
-    width: 400,
-    height: 250,
+    width: 800,
+    height: 600,
   },
 };
 let button1 = document.getElementById("Detection");
@@ -64,3 +64,9 @@ video.addEventListener("play", () => {
     Edges ? faceapi.draw.drawFaceExpressions(canvas, resizedDetections) : null;
   }, 100);
 });
+
+
+
+
+
+
