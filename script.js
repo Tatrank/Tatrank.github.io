@@ -10,8 +10,8 @@ let video = document.querySelector("video");
 let constraints = {
   video: {
     facingMode: "user",
-    width: 300,
-    height: 380,
+    width: 1080,
+    height: 1920,
   },
 };
 let button1 = document.getElementById("Detection");
