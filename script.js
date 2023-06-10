@@ -64,9 +64,3 @@ video.addEventListener("play", () => {
     Edges ? faceapi.draw.drawFaceExpressions(canvas, resizedDetections) : null;
   }, 100);
 });
-
-
-
-
-
-

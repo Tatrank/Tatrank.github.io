@@ -1,5 +1,5 @@
 html {
-  background-color: #3e62a0;
+  overflow-x: hidden;
 }
 
 body {
@@ -9,6 +9,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow-inline: scroll;
+  height: 100vh;
+  background-color: #3e62a0;
 }
 
 canvas {
@@ -17,7 +19,7 @@ canvas {
 
 .absolute {
   position: absolute;
-  top: 800px;
+  top: 80vh;
   display: flex;
 }
 
@@ -39,24 +41,8 @@ canvas {
   cursor: pointer;
 }
 
-video {
-  width: 640;
-  height: 480;
-}
-
-#video {
-  width: 640;
-  height: 480;
-}
-
-@media only screen and (max-width: 800px) {
-  .absolute {
-    flex-direction: column;
-  }
-  video {
-    width: 300;
-    height: 400;
-  }
+.absolute {
+  flex-direction: column;
 }
 
 .container {

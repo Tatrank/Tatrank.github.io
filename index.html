@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <script src="face-api.min.js"></script>
-    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <video id="video" width="250" height="400"></video>
     <div class="absolute">
-      <div id="Detection" class="input">Detection</div>
-      <div id="Emotions" class="input">Emotions</div>
-      <div id="Edges" class="input">Edges</div>
+      <button id="Detection" class="input">Detection</button>
+      <button id="Emotions" class="input">Emotions</button>
+      <button id="Edges" class="input">Edges</button>
     </div>
+    <script src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
   </body>
 </html>
