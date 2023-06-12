@@ -14,9 +14,6 @@ body {
   background-color: #3e62a0;
 }
 
-video {
-  transform: scale(2)
-}
 canvas {
   position: absolute;
 }
