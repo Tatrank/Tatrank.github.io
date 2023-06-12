@@ -10,7 +10,7 @@ let video = document.querySelector("video");
 let constraints = {
   video: {
     facingMode: "user",
-    width: 200,
+    width: 300,
     height: 270,
   },
 };
