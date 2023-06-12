@@ -15,7 +15,7 @@ body {
 }
 
 video {
-  transform: scale(1.2)
+  transform: scale(2)
 }
 canvas {
   position: absolute;
